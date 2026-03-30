@@ -1,21 +1,28 @@
 import React from 'react';
-
+import image from '../../assets/banner.png'
 const Hero = () => {
     return (
         <div>
             <div className="hero  mt-20">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                        className="max-w-sm rounded-lg shadow-2xl"
-                    />
+                <div className="hero-content flex gap-15  flex-col  lg:flex-row-reverse sm:flex-col">
                     <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
+                        <img
+                            src={image}
+                            className="max-w-sm rounded-lg shadow-2xl" />
+
+                    </div>
+                    <div>
+                        <span className="badge bg-gray-100 text-accent font-bold p-3"><i class="fa-solid fa-circle"></i> New: AI-Powered Tools Available</span>
+                        <h1 className="text-8xl font-bold">Supercharge Your <br /> Digital Workflow</h1>
                         <p className="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            Access premium AI tools, design assets, templates, and productivity <br />
+                            software—all in one place. Start creating faster today. <br />
+                            Explore Products
                         </p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <div className="flex gap-5">
+                            <button className="btn btn-accent font-bold rounded-2xl p-6">Explore Products</button>
+                            <button className="btn border-2 border-accent font-bold rounded-2xl p-6"><i class="fa-solid fa-play text-accent"></i> Watch Demo</button>
+                        </div>
                     </div>
                 </div>
             </div>
