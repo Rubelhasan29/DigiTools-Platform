@@ -10,7 +10,7 @@ const Steps = () => {
             <div className="flex flex-col gap-25 justify-center lg:flex-row">
                 <div className="card w-96 bg-base-100 card-sm shadow-lg border-2 border-gray-100 pb-8 pt-3">
                     <div className="flex justify-end pr-3">
-                        <div class="bg-accent font-bold text-white rounded-full px-3 py-2">01</div>
+                        <div className="bg-accent font-bold text-white rounded-full px-3 py-2">01</div>
                     </div>
                     <div className="card-body flex flex-col justify-center">
                         <div className="flex justify-center">
@@ -24,7 +24,7 @@ const Steps = () => {
                 </div>
                 <div className="card w-96 bg-base-100 card-sm shadow-lg border-2 border-gray-100 pb-8 pt-3">
                     <div className="flex justify-end pr-3">
-                        <div class="bg-accent font-bold text-white rounded-full px-3 py-2">02</div>
+                        <div className="bg-accent font-bold text-white rounded-full px-3 py-2">02</div>
                     </div>
                     <div className="card-body flex flex-col justify-center">
                         <div className="flex justify-center">
@@ -38,7 +38,7 @@ const Steps = () => {
                 </div>
                 <div className="card w-96 bg-base-100 card-sm shadow-lg border-2 border-gray-100 pb-8 pt-3">
                     <div className="flex justify-end pr-3">
-                        <div class="bg-accent font-bold text-white rounded-full px-3 py-2">03</div>
+                        <div className="bg-accent font-bold text-white rounded-full px-3 py-2">03</div>
                     </div>
                     <div className="card-body flex flex-col justify-center">
                         <div className="flex justify-center">
