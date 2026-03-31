@@ -2,6 +2,8 @@
 import './App.css'
 import Hero from './Component/Hero'
 import Navbar from './Component/Navbar'
+import Pricing from './Component/Pricing'
+import Steps from './Component/Steps'
 import Tools from './Component/Tools'
 
 
@@ -20,6 +22,8 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Tools productData={productData}></Tools>
+      <Steps></Steps>
+      <Pricing/>
     </>
   )
 }

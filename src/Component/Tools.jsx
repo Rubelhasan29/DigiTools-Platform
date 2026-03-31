@@ -5,7 +5,7 @@ const Tools = ({ productData }) => {
     const data2 = use(productData)
     const data = data2.products
     return (
-        <div className="max-w-9/12 mx-auto text-center mt-20 mb-20">
+        <div className="max-w-9/12 mx-auto text-center mt-20 mb-50">
             <div className="">
                 <h2 className="text-6xl font-bold pb-7">Premium Digital Tools</h2>
                 <p className="text-xl opacity-60">Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
@@ -15,7 +15,7 @@ const Tools = ({ productData }) => {
                     <input type="radio" name="my_tabs_1" className="tab px-5 text-2xl font-bold rounded-2xl pb-11 pt-4" aria-label="Cart ()" />
                 </div>
             </div>
-            <div className="grid grid-cols-3 gap-10 mt-20 ">
+            <div className="grid grid-cols-1 gap-10 mt-20 lg:grid-cols-3">
                 {
                     data.map(item => <Card key={item.id} data={item}></Card>)
                 }
