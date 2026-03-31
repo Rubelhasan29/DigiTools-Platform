@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <section className="shadow-sm p-3">
-        <div className="max-w-10/12 mx-auto">
+        <section className="shadow-sm lg:p-3">
+        <div className="lg:max-w-10/12 mx-auto">
         <div className="navbar bg-base-100">
             <div className="navbar-start">
                 <div class="dropdown">

@@ -26,6 +26,20 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            <div className="bg-accent p-10 mt-15 flex justify-center gap-70">
+                <div>
+                    <h1 className="text-8xl font-bold">50K+</h1>
+                    <p className="text-3xl">Active Users</p>
+                </div>
+                <div>
+                    <h1 className="text-8xl font-bold">200+</h1>
+                    <p className="text-3xl">Premium Tools</p>
+                </div>
+                <div>
+                    <h1 className="text-8xl font-bold">4.9+</h1>
+                    <p className="text-3xl">Rating</p>
+                </div>
+            </div>
         </div>
     );
 };
