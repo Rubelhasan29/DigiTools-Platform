@@ -2,12 +2,12 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <div className="max-w-10/12 mx-auto text-center space-y-8 mb-32 mt-32"  >
+        <div className="max-w-10/12 mx-auto text-center space-y-8 mb-32 mt-32 "  >
             <div className="space-y-3">
                 <h1 className="text-7xl font-bold">Simple, Transparent Pricing</h1>
                 <p className="text-xl opacity-60">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className="flex gap-10 justify-center">
+            <div className="flex-col gap-10 justify-center space-y-10 lg:grid grid-cols-3 ">
                 <div className="card w-96 bg-base-100 shadow-sm">
                     <div className="card-body">
                         <div className="text-start space-y-6">
@@ -42,11 +42,11 @@ const Pricing = () => {
                             <button className="btn btn-accent btn-block p-6 rounded-4xl text-xl font-bold">Get Started Free</button>
                         </div>
                     </div>
-                </div>
+                </div>  
 
                 <div className="card w-96 bg-accent shadow-sm">
                     <div className="card-body">
-                    <h1 className="bg-yellow-300 px-8 py-1 rounded-full absolute bottom-123 right-29">Most Popular</h1>
+                    <h1 className="bg-yellow-300 px-8 py-1 rounded-full absolute bottom-115  lg:bottom-114 right-29">Most Popular</h1>
                         <div className="text-start space-y-6">
                             <div>
                                 <h2 className="text-3xl font-bold ">Pro</h2>

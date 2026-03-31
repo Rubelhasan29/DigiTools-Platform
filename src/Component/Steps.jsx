@@ -1,4 +1,7 @@
 import React from 'react';
+import image1 from '../../assets/user.png';
+import image2 from '../../assets/package.png';
+import image3 from '../../assets/rocket.png';
 
 const Steps = () => {
     return (
@@ -14,7 +17,7 @@ const Steps = () => {
                     </div>
                     <div className="card-body flex flex-col justify-center">
                         <div className="flex justify-center">
-                            <img className=" h-30 w-30 bg-accent rounded-full p-5" src="../../assets/user.png" alt="" />
+                            <img className=" h-30 w-30 bg-accent rounded-full p-5" src={image1} alt="" />
                         </div>
                         <div>
                             <h2 className="text-center text-2xl font-bold">Create Account</h2>
@@ -28,7 +31,7 @@ const Steps = () => {
                     </div>
                     <div className="card-body flex flex-col justify-center">
                         <div className="flex justify-center">
-                            <img className=" h-30 w-30 bg-accent rounded-full p-5" src="../../assets/package.png" alt="" />
+                            <img className=" h-30 w-30 bg-accent rounded-full p-5" src={image2} alt="" />
                         </div>
                         <div>
                             <h2 className="text-center text-2xl font-bold">Choose Products</h2>
@@ -42,7 +45,7 @@ const Steps = () => {
                     </div>
                     <div className="card-body flex flex-col justify-center">
                         <div className="flex justify-center">
-                            <img className=" h-30 w-30 bg-accent rounded-full p-5" src="../../assets/rocket.png" alt="" />
+                            <img className=" h-30 w-30 bg-accent rounded-full p-5" src={image3} alt="" />
                         </div>
                         <div>
                             <h2 className="text-center text-2xl font-bold">Start Creating</h2>

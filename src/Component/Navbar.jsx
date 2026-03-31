@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({ cartLength }) => {
     return (
         <section className="shadow-sm lg:p-3">
             <div className="navbar bg-base-100">
@@ -31,7 +31,23 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-accent text-lg font-bold">Get Started</a>
+                    <div className="flex items-center gap-5">
+                        <div className="flex gap-5 items-center">
+                            <div>
+                                <div className="indicator">
+
+                                    {cartLength > 0 ? <span className="indicator-item badge badge-secondary">{cartLength}</span> : null}
+                                    <button className="btn"><i className="fa-solid fa-cart-arrow-down"></i></button>
+                                </div>
+
+                            </div>
+                            <div>
+                                <button className="btn font-bold text-xl">login</button>                            </div>
+                        </div>
+                        <div>
+                            <a className="btn btn-accent text-lg font-bold">Get Started</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
-const Card = ({ data }) => {
+const Card = ({ data, carts , setCarts }) => {
     const [isAdded, setIsAdded] = useState(false)
     const handleByeBtn = () => {
         setIsAdded(true)
+        setCarts ([...carts, data])
     }
     const badgeColor = {
         new:"bg-green-200",
