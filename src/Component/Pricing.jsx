@@ -46,7 +46,7 @@ const Pricing = () => {
 
                 <div className="card w-96 bg-accent shadow-sm">
                     <div className="card-body">
-                    <h1 className="bg-yellow-300 px-8 py-1 rounded-full absolute bottom-115  lg:bottom-123 right-29">Most Popular</h1>
+                    <h1 className="bg-yellow-300 px-8 py-1 rounded-full absolute bottom-115 right-29">Most Popular</h1>
                         <div className="text-start space-y-6">
                             <div>
                                 <h2 className="text-3xl font-bold ">Pro</h2>
