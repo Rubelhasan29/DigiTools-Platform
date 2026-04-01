@@ -7,7 +7,7 @@ const Pricing = () => {
                 <h1 className="text-4xl md: lg:text-7xl font-bold">Simple, Transparent Pricing</h1>
                 <p className="text-xl opacity-60">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className="flex-col gap-10 justify-center space-y-10 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2">
+            <div className="flex-col justify-between space-y-8 lg:grid lg:grid-cols-3 lg:pl-30 md:grid md:grid-cols-2">
                 <div className="card w-96 bg-base-100 shadow-sm">
                     <div className="card-body">
                         <div className="text-start space-y-6">
@@ -46,7 +46,7 @@ const Pricing = () => {
 
                 <div className="card w-96 bg-accent shadow-sm">
                     <div className="card-body">
-                    <h1 className="bg-yellow-300 px-8 py-1 rounded-full absolute bottom-115  lg:bottom-114 right-29">Most Popular</h1>
+                    <h1 className="bg-yellow-300 px-8 py-1 rounded-full absolute bottom-115  lg:bottom-123 right-29">Most Popular</h1>
                         <div className="text-start space-y-6">
                             <div>
                                 <h2 className="text-3xl font-bold ">Pro</h2>
