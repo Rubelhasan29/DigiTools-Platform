@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import { toast } from "react-toastify";
 
 const Card = ({ data, carts , setCarts }) => {
-    const [isAdded, setIsAdded] = useState(false)
+    const isAdded = carts.find(item => item.id === data.id);
     const handleByeBtn = () => {
-        setIsAdded(true)
+
+        const isAlreadyAdded = carts.find(item => item.id === data.id)
+        if(isAlreadyAdded){
+            toast.error("Item already in cart")
+            return;
+        }
         setCarts ([...carts, data])
+        toast.success("Item added to cart !")
     }
     const badgeColor = {
         new:"bg-green-200",

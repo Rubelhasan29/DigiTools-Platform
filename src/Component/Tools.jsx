@@ -13,7 +13,7 @@ const Tools = ({ productData,setCartLength }) => {
     }, [carts, setCartLength])
     return (
         <>
-            <div className="max-w-9/12 mx-auto text-center mt-20 mb-20">
+            <div className="max-w-11.5/12 mt-10 lg:max-w-9/12 mx-auto text-center lg:mt-20 mb-20">
                 <div className="">
                     <h2 className="text-6xl font-bold pb-7">Premium Digital Tools</h2>
                     <p className="text-xl opacity-60">Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
