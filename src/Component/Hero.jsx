@@ -49,7 +49,7 @@ const Hero = () => {
                         <hr />
                     </div>
                 </div>
-                <div>
+                <div className="pb-10 lg:pb-0">
                     <h1 className="text-8xl font-bold">4.9+</h1>
                     <p className="text-3xl pt-7">Rating</p>
                 </div>

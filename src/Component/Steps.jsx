@@ -7,10 +7,10 @@ const Steps = () => {
     return (
         <div className="max-w-10/12 mx-auto text-center space-y-8 mb-32 mt-32">
             <div className="space-y-3">
-                <h1 className="text-7xl font-bold">Get Started in 3 Steps</h1>
+                <h1 className="text-5xl lg:text-7xl font-bold">Get Started in 3 Steps</h1>
                 <p className="text-xl opacity-60">Start using premium digital tools in minutes, not hours.</p>
             </div>
-            <div className="flex flex-col gap-25 justify-center lg:flex-row">
+            <div className="flex flex-col gap-7 justify-center md:flex-row md:gap-5 lg:flex-row lg:gap-25">
                 <div className="card w-96 bg-base-100 card-sm shadow-lg border-2 border-gray-100 pb-8 pt-3">
                     <div className="flex justify-end pr-3">
                         <div className="bg-accent font-bold text-white rounded-full px-3 py-2">01</div>

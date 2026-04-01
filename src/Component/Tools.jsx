@@ -25,7 +25,7 @@ const Tools = ({ productData,setCartLength }) => {
                             }`} aria-label={`Cart(${carts.length})`} onClick={() => setCurrentTab("cart")} />
                     </div>
                 </div>
-                {currentTab === "product" && <div className="grid grid-cols-1 gap-10 mt-20 lg:grid-cols-3">
+                {currentTab === "product" && <div className="grid grid-cols-1 gap-10 mt-20 md:grid-cols-2 lg:grid-cols-3">
                     {
                         data.map(item => <Card key={item.id} data={item} carts={carts} setCarts={setCarts}></Card>)
                     }

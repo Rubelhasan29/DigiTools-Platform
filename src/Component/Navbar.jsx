@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = ({ cartLength }) => {
     return (
         <section className="shadow-sm sticky top-0 z-50 w-full bg-white">
-            <div className="navbar bg-base-100 lg:p-4">
+            <div className="lg:max-w-10/12 mx-auto navbar bg-base-100 lg:p-4">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -19,7 +19,7 @@ const Navbar = ({ cartLength }) => {
                             <li><a>FAQ</a></li>
                         </ul>
                     </div>
-                    <a className="btn p-0 btn-ghost text-xl text-accent font-bold lg:text-4xl">DigiTools</a>
+                    <a className="btn p-0 btn-ghost text-lg text-accent font-bold lg:text-4xl md:text-2xl">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -42,7 +42,7 @@ const Navbar = ({ cartLength }) => {
 
                             </div>
                             <div>
-                                <button className="btn font-bold text-xl">login</button>                            </div>
+                                <button className="btn font-bold lg:text-xl md:text-lg">login</button>                            </div>
                         </div>
                         <div>
                             <a className="btn btn-accent text-sm font-bold lg:text-lg">Get Started</a>

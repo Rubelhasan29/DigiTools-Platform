@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer sm:footer-horizontal bg-info-content text-white p-20 px-40">
+            <footer className="footer sm:footer-horizontal bg-info-content text-white px-15 p-10 lg:p-20 lg:px-40">
                 <aside>
                     <h1 className="text-6xl font-bold">DigiTools</h1>
                     <p>
